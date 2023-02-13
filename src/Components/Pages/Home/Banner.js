@@ -22,7 +22,7 @@ export const Banner = () => {
                         ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                     </p>
                     <div className="flex gap-x-[26px] flex-col md:flex-row gap-y-[20px] md:gap-y-0">
-                        <button className="bg-[#185CFF] text-[#FFFFFF] text-[15px] tracking-[-0.01em] rounded-[6px] w-full md:w-[190px] h-[54px] flex justify-center items-center">
+                        <button className="bg-[#185CFF] text-[#FFFFFF] text-[15px] tracking-[-0.01em] rounded-[6px] w-full md:w-[190px] h-[54px] flex justify-center items-center ">
                             Learn more
                         </button>
                         <button className="text-primary border-[1px] border-primary md:border-0 md:text-black text-[15px] tracking-[-0.01em] rounded-[6px] w-full md:w-[190px] h-[54px] flex justify-center items-center gap-x-[10px]">
