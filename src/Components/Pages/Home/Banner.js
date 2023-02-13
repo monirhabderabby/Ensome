@@ -35,7 +35,7 @@ export const Banner = () => {
                     <img src={illustration1} alt="illistration" className="animate-pulse w-[345px] md:w-full mx-auto" />
                 </div>
             </section>
-            <section className="h-[132px] w-full mt-[30px] md:mt-0">
+            <section className="h-[72px] md:h-[132px] w-full mt-[30px] md:mt-0">
                 <Divider light />
                 <ClientLogos />
             </section>
