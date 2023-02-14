@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "../../Shared/Navbar/Navbar";
 import { Banner } from "./Banner";
 import { NewestBusinessPlatform } from "./NewestBusinessPlatform";
+import { RadicallyData } from "./RadicallyData";
 import { WhyChooseEnsome } from "./WhyChooseEnsome";
 
 export const Home = () => {
@@ -14,6 +15,7 @@ export const Home = () => {
             <Banner />
             <WhyChooseEnsome />
             <NewestBusinessPlatform />
+            <RadicallyData />
         </div>
     );
 };
