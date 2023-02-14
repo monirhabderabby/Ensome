@@ -4,6 +4,7 @@ import React from "react";
 // Components
 import Navbar from "../../Shared/Navbar/Navbar";
 import { Banner } from "./Banner";
+import { NewestBusinessPlatform } from "./NewestBusinessPlatform";
 import { WhyChooseEnsome } from "./WhyChooseEnsome";
 
 export const Home = () => {
@@ -12,6 +13,7 @@ export const Home = () => {
             <Navbar />
             <Banner />
             <WhyChooseEnsome />
+            <NewestBusinessPlatform />
         </div>
     );
 };

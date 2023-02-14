@@ -32,7 +32,7 @@ export const WhyChooseEnsome = () => {
         },
     ];
     return (
-        <div className="w-full h-auto md:h-[852px] flex flex-col justify-center items-center bg-Background py-[40px] px-[16px] md:px-0 md:py-0">
+        <div className="w-full h-auto lg:h-[852px] flex flex-col justify-center items-center bg-Background py-[40px] px-[16px] md:px-0">
             <div className="max-w-[540px]">
                 <h1 className="text-[30px] md:text-[46px] font-manrope font-bold tracking-[-1.5%] text-black text-center">
                     Why our clients <br /> choose Ensome?
@@ -42,7 +42,7 @@ export const WhyChooseEnsome = () => {
                     explicabo.
                 </p>
             </div>
-            <div className="mt-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+            <div className="mt-[50px] grid grid-cols-1  md:grid-cols-3 gap-[30px] px-[16px]">
                 {features?.map(item => {
                     return <FeatureCard key={item.id} feature={item} />;
                 })}
