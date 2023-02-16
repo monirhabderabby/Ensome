@@ -18,9 +18,6 @@ export const Testmonials = () => {
     const navigationPrevRef = useRef(null);
     return (
         <div className="h-auto py-[100px] w-full max-w-[1200px] mx-auto pb-[100px]">
-            <div className="w-full flex justify-between items-center">
-                <h1 className="text-[46px] text-black font-extrabold font-manrope text-left w-[430px]">Trusted by the best in the business</h1>
-            </div>
             <Swiper
                 spaceBetween={30}
                 slidesPerView={2}
@@ -30,9 +27,9 @@ export const Testmonials = () => {
                 }}
                 modules={[Navigation]}
                 style={{
-                    paddingTop: "100px",
+                    paddingTop: "200px",
                     paddingBottom: "100px",
-                    paddingLeft: "30px",
+                    paddingLeft: "20px",
                     paddingRight: "20px",
                 }}
                 className="flex items-center"
@@ -50,6 +47,9 @@ export const Testmonials = () => {
                     });
                 }}
             >
+                <h1 className="text-[46px] text-black font-extrabold font-manrope text-left w-[430px] absolute top-0 left-0">
+                    Trusted by the best in the business
+                </h1>
                 <SwiperSlide>
                     <TestmonialCard />
                 </SwiperSlide>
