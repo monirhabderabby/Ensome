@@ -7,6 +7,7 @@ import { Banner } from "./Banner";
 import { GladToHelp } from "./GladToHelp";
 import { NewestBusinessPlatform } from "./NewestBusinessPlatform";
 import { RadicallyData } from "./RadicallyData";
+import { Testmonials } from "./Testmonials";
 import { WhyChooseEnsome } from "./WhyChooseEnsome";
 
 export const Home = () => {
@@ -18,6 +19,7 @@ export const Home = () => {
             <NewestBusinessPlatform />
             <RadicallyData />
             <GladToHelp />
+            <Testmonials />
         </div>
     );
 };
