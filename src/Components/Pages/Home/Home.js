@@ -12,7 +12,7 @@ import { WhyChooseEnsome } from "./WhyChooseEnsome";
 
 export const Home = () => {
     return (
-        <div>
+        <div className="pb-[300px]">
             <Navbar />
             <Banner />
             <WhyChooseEnsome />
