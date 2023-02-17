@@ -4,6 +4,7 @@ import React from "react";
 // Components
 import Navbar from "../../Shared/Navbar/Navbar";
 import { Banner } from "./Banner";
+import { CompanyOverView } from "./CompanyOverView";
 import { GladToHelp } from "./GladToHelp";
 import { NewestBusinessPlatform } from "./NewestBusinessPlatform";
 import { RadicallyData } from "./RadicallyData";
@@ -20,6 +21,7 @@ export const Home = () => {
             <RadicallyData />
             <GladToHelp />
             <Testmonials />
+            <CompanyOverView />
         </div>
     );
 };

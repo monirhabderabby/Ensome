@@ -12,6 +12,7 @@ import { TestmonialCard } from "../../../Components/Shared/Cards/TestmonialCard"
 // css
 import "swiper/css";
 import "swiper/css/navigation";
+import "./css/Testmonial.css";
 
 export const Testmonials = () => {
     const navigationNextRef = useRef(null);
@@ -20,19 +21,28 @@ export const Testmonials = () => {
         <div className="h-auto py-[100px] w-full max-w-[1200px] mx-auto pb-[100px]">
             <Swiper
                 spaceBetween={30}
-                slidesPerView={2}
+                breakpoints={{
+                    640: {
+                        width: 640,
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        width: 768,
+                        slidesPerView: 2,
+                    },
+                }}
                 navigation={{
                     nextEl: navigationNextRef.current,
                     prevEl: navigationPrevRef.current,
                 }}
                 modules={[Navigation]}
                 style={{
-                    paddingTop: "200px",
                     paddingBottom: "100px",
                     paddingLeft: "20px",
                     paddingRight: "20px",
+                    paddingTop: "200px",
                 }}
-                className="flex items-center"
+                className="pt-[200px]"
                 onSwiper={swiper => {
                     // Delay execution for the refs to be defined
                     setTimeout(() => {
@@ -47,7 +57,7 @@ export const Testmonials = () => {
                     });
                 }}
             >
-                <h1 className="text-[46px] text-black font-extrabold font-manrope text-left w-[430px] absolute top-0 left-0">
+                <h1 className="text-[30px] xl:text-[46px] text-black font-extrabold font-manrope xl:text-left xl:w-[430px] absolute top-0 left-0 px-[16px] xl:px-0">
                     Trusted by the best in the business
                 </h1>
                 <SwiperSlide>
@@ -59,15 +69,15 @@ export const Testmonials = () => {
                 <SwiperSlide>
                     <TestmonialCard />
                 </SwiperSlide>
-                <div className="flex items-center gap-x-[16px] mt-[30px] absolute top-[0px] right-0 z-50">
+                <div className="flex items-center gap-x-[16px] mt-[30px] absolute top-[70px] xl:top-0 right-0 z-50 px-[16px]">
                     <button
-                        className="w-[110px] h-[60px] bg-Tertiary rounded-[20px] flex justify-center items-center button-prev-slide"
+                        className="w-[48px] h-[40px] xl:w-[110px] xl:h-[60px] bg-Tertiary rounded-[14px] xl:rounded-[20px] flex justify-center items-center button-prev-slide"
                         ref={navigationPrevRef}
                     >
                         <img src={leftArror} alt="left" />
                     </button>
                     <button
-                        className="w-[110px] h-[60px] bg-Tertiary rounded-[20px] flex justify-center items-center button-next-slide"
+                        className="w-[48px] h-[40px] xl:w-[110px] xl:h-[60px] bg-Tertiary rounded-[14px] xl:rounded-[20px] flex justify-center items-center button-next-slide"
                         ref={navigationNextRef}
                     >
                         <img src={rightArror} alt="right" />
