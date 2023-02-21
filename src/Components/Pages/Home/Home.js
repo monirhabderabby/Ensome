@@ -1,10 +1,14 @@
 // Configuration
 import React from "react";
+import { NewsLetter } from "../../Shared/Components/NewsLetter";
+
+// Third party packages
 
 // Components
 import Navbar from "../../Shared/Navbar/Navbar";
 import { Banner } from "./Banner";
 import { CompanyOverView } from "./CompanyOverView";
+import { GetTouch } from "./GetTouch";
 import { GladToHelp } from "./GladToHelp";
 import { NewestBusinessPlatform } from "./NewestBusinessPlatform";
 import { RadicallyData } from "./RadicallyData";
@@ -22,6 +26,8 @@ export const Home = () => {
             <GladToHelp />
             <Testmonials />
             <CompanyOverView />
+            <GetTouch />
+            <NewsLetter />
         </div>
     );
 };

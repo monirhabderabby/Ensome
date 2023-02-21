@@ -14,6 +14,7 @@ module.exports = {
                 "Helper (blue_3)": "#C9DCEC",
                 Background: "#C9DCEC",
                 Error: "#C14040",
+                background_gray: "#F1F6FA",
             },
             fontFamily: {
                 manrope: ["Manrope", "sans-serif"],
