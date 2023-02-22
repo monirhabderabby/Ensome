@@ -18,7 +18,7 @@ export const Testmonials = () => {
     const navigationNextRef = useRef(null);
     const navigationPrevRef = useRef(null);
     return (
-        <div className="h-auto py-[100px] w-full max-w-[1200px] mx-auto pb-[100px]">
+        <div className="h-auto py-[100px] w-full max-w-[1300px] mx-auto pb-[100px]">
             <Swiper
                 spaceBetween={30}
                 breakpoints={{

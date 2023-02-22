@@ -6,7 +6,7 @@ import { FormControl, InputLabel, MenuItem, Select, Stack, TextField } from "@mu
 export const GetTouch = () => {
     return (
         <div className="bg-background_gray">
-            <div className="max-w-[1400px] mx-auto lg:px-16 md:px-10 px-3 md:py-[120px] py-6">
+            <div className="max-w-[1500px] mx-auto lg:px-16 md:px-10 px-3 md:py-[120px] py-6">
                 <div className="w-full mx-auto grid md:grid-cols-2 grid-cols-1 justify-between lg:gap-10 md:gap-8 gap-6 py-[]">
                     <div className="w-full">
                         <h1 className="text-[38px] leading-[56px] text-xl font-bold text-[#292D33] font-Manrope">

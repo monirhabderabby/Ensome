@@ -29,7 +29,7 @@ export const ClientLogos = () => {
                     disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
-                className="mySwiper max-w-[1400px] mx-auto"
+                className="mySwiper max-w-[1500px] mx-auto"
             >
                 {clientLogos?.map((logo, index) => {
                     return (

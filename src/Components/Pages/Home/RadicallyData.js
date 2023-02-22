@@ -4,7 +4,7 @@ import { PrimaryButton } from "../../Shared/buttons/PrimaryButton";
 
 export const RadicallyData = () => {
     return (
-        <div className="bg-transparent max-w-[1400px] mx-auto flex flex-col md:flex-row items-center gap-x-[95px] mt-[50px] md:mt-[90px] px-[16px] pb-[50px]">
+        <div className="bg-transparent max-w-[1500px] mx-auto flex flex-col md:flex-row items-center gap-x-[95px] mt-[50px] md:mt-[90px] px-[16px] pb-[50px]">
             <div>
                 <img className="w-[591px]" src={illistration3} alt="" />
             </div>

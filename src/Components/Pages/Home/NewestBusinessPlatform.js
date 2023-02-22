@@ -4,7 +4,7 @@ import { PrimaryButton } from "../../Shared/buttons/PrimaryButton";
 
 export const NewestBusinessPlatform = () => {
     return (
-        <div className="bg-transparent max-w-[1400px] mx-auto flex flex-col-reverse md:flex-row items-center gap-x-[95px] mt-[50px] md:mt-[90px] px-[16px]">
+        <div className="bg-transparent max-w-[1500px] mx-auto flex flex-col-reverse md:flex-row items-center gap-x-[95px] mt-[50px] md:mt-[90px] px-[16px]">
             <div className="flex flex-col justify-center items-start w-full gap-y-[20px] md:gap-y-[30px]  lg:w-[540px]">
                 <h1 className="text-[30px] lg:text-[46px] text-black font-extrabold tracking-[-1.5%] mt-[30px]">
                     The newest business analytics platform

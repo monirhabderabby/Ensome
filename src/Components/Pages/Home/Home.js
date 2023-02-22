@@ -1,6 +1,7 @@
 // Configuration
 import React from "react";
 import { NewsLetter } from "../../Shared/Components/NewsLetter";
+import { Footer } from "../../Shared/Footer/Footer";
 
 // Third party packages
 
@@ -17,7 +18,7 @@ import { WhyChooseEnsome } from "./WhyChooseEnsome";
 
 export const Home = () => {
     return (
-        <div className="pb-[300px]">
+        <div>
             <Navbar />
             <Banner />
             <WhyChooseEnsome />
@@ -28,6 +29,7 @@ export const Home = () => {
             <CompanyOverView />
             <GetTouch />
             <NewsLetter />
+            <Footer />
         </div>
     );
 };
