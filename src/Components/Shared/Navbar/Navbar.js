@@ -11,6 +11,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../../../Assets/Logo/logo.png";
 
 const pages = ["Home", "Solution", "Pages", "Elements", "Blog", "Contacts"];
@@ -122,17 +123,74 @@ function Navbar() {
                             display: { xs: "none", md: "flex" },
                             justifyContent: "center",
                             textTransform: "capitalize",
+                            columnGap: "40px",
                         }}
                     >
-                        {pages.map(page => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: "#9497A1", display: "block", textTransform: "capitalize", mx: 2 }}
-                            >
-                                {page}
-                            </Button>
-                        ))}
+                        <NavLink to="/">
+                            {({ isActive }) => (
+                                <span
+                                    className={
+                                        isActive
+                                            ? "text-black text-[14px] font-manrope font-semibold"
+                                            : "text-[#9497A1] text-[14px] font-manrope font-medium hover:text-black duration-300"
+                                    }
+                                >
+                                    Home
+                                </span>
+                            )}
+                        </NavLink>
+                        <NavLink to="/solution">
+                            {({ isActive }) => (
+                                <span
+                                    className={
+                                        isActive
+                                            ? "text-black text-[14px] font-manrope font-semibold"
+                                            : "text-[#9497A1] text-[14px] font-manrope font-medium hover:text-black duration-300"
+                                    }
+                                >
+                                    Solution
+                                </span>
+                            )}
+                        </NavLink>
+                        <NavLink to="/elements">
+                            {({ isActive }) => (
+                                <span
+                                    className={
+                                        isActive
+                                            ? "text-black text-[14px] font-manrope font-semibold"
+                                            : "text-[#9497A1] text-[14px] font-manrope font-medium hover:text-black duration-300"
+                                    }
+                                >
+                                    Elements
+                                </span>
+                            )}
+                        </NavLink>
+                        <NavLink to="/blog">
+                            {({ isActive }) => (
+                                <span
+                                    className={
+                                        isActive
+                                            ? "text-black text-[14px] font-manrope font-semibold"
+                                            : "text-[#9497A1] text-[14px] font-manrope font-medium hover:text-black duration-300"
+                                    }
+                                >
+                                    Blog
+                                </span>
+                            )}
+                        </NavLink>
+                        <NavLink to="/contact">
+                            {({ isActive }) => (
+                                <span
+                                    className={
+                                        isActive
+                                            ? "text-black text-[14px] font-manrope font-semibold"
+                                            : "text-[#9497A1] text-[14px] font-manrope font-medium hover:text-black duration-300"
+                                    }
+                                >
+                                    Contact
+                                </span>
+                            )}
+                        </NavLink>
                     </Box>
 
                     <Box sx={{ flexGrow: 0 }}>

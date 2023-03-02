@@ -34,7 +34,7 @@ export const ClientLogos = () => {
                 {clientLogos?.map((logo, index) => {
                     return (
                         <SwiperSlide key={index}>
-                            <img src={logo} alt="logo" />
+                            <img src={logo} className="mx-auto" alt="logo" />
                         </SwiperSlide>
                     );
                 })}

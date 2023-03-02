@@ -22,7 +22,7 @@ const FooterBottom = () => {
     const year = today.getFullYear();
     return (
         <div className="lg:flex lg:justify-between items-center py-6">
-            <p className="text-center">© {year} SoftWrapper Rights Reserved.</p>
+            <p className="text-center">© {year} Ensome Rights Reserved.</p>
             <div className="flex gap-3 pt-4 justify-center">
                 {socialIcons.map((social, index) => (
                     <a
