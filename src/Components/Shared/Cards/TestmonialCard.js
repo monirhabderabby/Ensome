@@ -5,7 +5,7 @@ export const TestmonialCard = () => {
     return (
         <SwiperSlide className="max-w-[540px] min-h-[309px] rounded-[6px] shadow-card3 relative">
             <img
-                src="https://scontent.frjh5-1.fna.fbcdn.net/v/t39.30808-6/285722642_3283246311936540_7816692518925760812_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEaTv9acgXhHvkaa3jnO1reUx5aig2fxHZTHlqKDZ_Edm2XxW825x9K_KYJBPJjT4yZFZxj7jYl3GE4-6p7aNzt&_nc_ohc=9rS4pqF8UOoAX88NMHD&tn=5Af7VWSQfe-WPdJS&_nc_ht=scontent.frjh5-1.fna&oh=00_AfAcOBwQ_u4NTAu38AlWKySrP2dastPd0vCfyWmhhmm5oQ&oe=63F1FD8D"
+                src="https://as2.ftcdn.net/v2/jpg/03/64/21/11/1000_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
                 alt="profilePhoto"
                 className="w-[80px] h-[80px] rounded-full absolute top-[-40px] left-[35px] z-30"
             />

@@ -178,6 +178,19 @@ function Navbar() {
                                 </span>
                             )}
                         </NavLink>
+                        <NavLink to="/service">
+                            {({ isActive }) => (
+                                <span
+                                    className={
+                                        isActive
+                                            ? "text-black text-[14px] font-manrope font-semibold"
+                                            : "text-[#9497A1] text-[14px] font-manrope font-medium hover:text-black duration-300"
+                                    }
+                                >
+                                    Service
+                                </span>
+                            )}
+                        </NavLink>
                         <NavLink to="/contact">
                             {({ isActive }) => (
                                 <span

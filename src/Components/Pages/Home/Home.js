@@ -6,7 +6,6 @@ import { Footer } from "../../Shared/Footer/Footer";
 // Third party packages
 
 // Components
-import Navbar from "../../Shared/Navbar/Navbar";
 import { Banner } from "./Banner";
 import { CompanyOverView } from "./CompanyOverView";
 import { GetTouch } from "./GetTouch";
@@ -19,7 +18,6 @@ import { WhyChooseEnsome } from "./WhyChooseEnsome";
 export const Home = () => {
     return (
         <div>
-            <Navbar />
             <Banner />
             <WhyChooseEnsome />
             <NewestBusinessPlatform />
