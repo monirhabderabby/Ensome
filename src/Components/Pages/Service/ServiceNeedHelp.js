@@ -8,7 +8,7 @@ export const ServiceNeedHelp = () => {
             <p className="text-gray font-normal font-open-sans text-[16px] tracking-[-1.5%] max-w-[540px] text-center">
                 Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.
             </p>
-            <PrimaryButton>Contact Us</PrimaryButton>
+            <PrimaryButton redirect="contact">Contact Us</PrimaryButton>
         </div>
     );
 };
