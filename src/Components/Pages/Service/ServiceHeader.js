@@ -2,7 +2,7 @@ import React from "react";
 
 export const ServiceHeader = () => {
     return (
-        <div className="max-w-[1500px] mx-auto">
+        <div className="max-w-[1500px] mx-auto px-[16px]">
             <div className=" mt-[30px] md:mt-[40px] px-0 md:px-[53px]">
                 Home | <span className="font-medium">Services</span>
             </div>

@@ -1,19 +1,11 @@
 import React from "react";
 import Logo from "../../../Assets/Logo/logo.png";
+import Logosvg from "../../../Assets/Logo/Logo.svg";
 
-const FooterLeft = () => {
-    const handleSubscribe = e => {
-        e.preventDefault();
-        const email = e.target.email.value;
-
-        const Subscribe = {
-            email,
-        };
-        console.log(Subscribe);
-    };
+const FooterLeft = ({ bgColor }) => {
     return (
         <div>
-            <img src={Logo} alt="logo" />
+            <img src={`${bgColor?.includes("secondary") ? Logosvg : Logo}`} alt="logo" />
         </div>
     );
 };
