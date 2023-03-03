@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import pagesLink from "./FooterPageLink";
 
-const FooterRight = () => {
+const FooterRight = ({ bgColor }) => {
     const { primaryPages, pages, templates } = pagesLink;
 
     return (
@@ -12,7 +12,11 @@ const FooterRight = () => {
                 <ul>
                     {primaryPages.map((primaryPage, index) => (
                         <Link key={index + 1} to={primaryPage.path}>
-                            <li className="font-open-sans font-normal text-[14px] leading-[24px] tracking-[-1.5%] text-black mb-[12px] hover:text-primary transition-[0.3s] whitespace-nowrap">
+                            <li
+                                className={`font-open-sans font-normal text-[14px] leading-[24px] tracking-[-1.5%] mb-[12px] ${
+                                    bgColor?.includes("secondary") ? " hover:text-white" : "hover:text-primary"
+                                } transition-[0.3s] whitespace-nowrap ${bgColor?.includes("secondary") ? "text-gray" : "text-black"}`}
+                            >
                                 {primaryPage.name}
                             </li>
                         </Link>
@@ -24,7 +28,11 @@ const FooterRight = () => {
                 <ul>
                     {pages.map((page, index) => (
                         <Link key={index + 1} to={page.path}>
-                            <li className="font-open-sans font-normal text-[14px] leading-[24px] tracking-[-1.5%] text-black mb-[12px] hover:text-primary transition-[0.3s]">
+                            <li
+                                className={`font-open-sans font-normal text-[14px] leading-[24px] tracking-[-1.5%] mb-[12px] ${
+                                    bgColor?.includes("secondary") ? " hover:text-white" : "hover:text-primary"
+                                } transition-[0.3s] whitespace-nowrap ${bgColor?.includes("secondary") ? "text-gray" : "text-black"}`}
+                            >
                                 {page.name}
                             </li>
                         </Link>
@@ -36,7 +44,11 @@ const FooterRight = () => {
                 <ul>
                     {templates.map((template, index) => (
                         <Link key={index + 1} to={template.path}>
-                            <li className="font-open-sans font-normal text-[14px] leading-[24px] tracking-[-1.5%] text-black mb-[12px] hover:text-primary transition-[0.3s]">
+                            <li
+                                className={`font-open-sans font-normal text-[14px] leading-[24px] tracking-[-1.5%] mb-[12px]  ${
+                                    bgColor?.includes("secondary") ? " hover:text-white" : "hover:text-primary"
+                                } transition-[0.3s] whitespace-nowrap ${bgColor?.includes("secondary") ? "text-gray" : "text-black"}`}
+                            >
                                 {template.name}
                             </li>
                         </Link>
