@@ -7,20 +7,20 @@ export const ServiceOverview = () => {
                 We provide services that guarantee your success
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[31px] mt-[50px]">
-                <div className="flex items-center gap-x-[30px] justify-end">
-                    <div className="w-full flex justify-center">
+                <div className="flex items-center justify-end">
+                    <div className="w-full flex justify-center md:justify-end">
                         <div className="flex flex-col  items-start">
                             <h1 className="text-primary font-extrabold text-[30px] md:text-[50px] font-open-sans tracking-[-2.5%]">1830+</h1>
                             <span className="text-[16px] font-normal font-open-sans tracking-[-1.5%] text-gray">Project executed</span>
                         </div>
                     </div>
-                    <div className="w-full flex justify-center">
+                    <div className="w-full flex justify-center md:justify-end">
                         <div className="flex flex-col items-start">
                             <h1 className="text-primary font-extrabold text-[30px] md:text-[50px] font-open-sans tracking-[-2.5%]">834+</h1>
                             <span className="text-[16px] font-normal font-open-sans tracking-[-1.5%] text-gray">Satisfied customers</span>
                         </div>
                     </div>
-                    <div className="w-full flex justify-center">
+                    <div className="w-full flex justify-center md:justify-end">
                         <div className="flex flex-col items-start">
                             <h1 className="text-primary font-extrabold text-[30px] md:text-[50px] font-open-sans tracking-[-2.5%]">390+</h1>
                             <span className="text-[16px] font-normal font-open-sans tracking-[-1.5%] text-gray">Data management</span>

@@ -18,7 +18,7 @@ export const Testmonials = () => {
     const navigationNextRef = useRef(null);
     const navigationPrevRef = useRef(null);
     return (
-        <div className="h-auto py-[100px] w-full max-w-[1300px] mx-auto pb-[100px]">
+        <div className="h-auto w-full max-w-[1200px] mx-auto">
             <Swiper
                 spaceBetween={30}
                 breakpoints={{
@@ -37,12 +37,12 @@ export const Testmonials = () => {
                 }}
                 modules={[Navigation]}
                 style={{
-                    paddingBottom: "100px",
+                    paddingBottom: "0px",
                     paddingLeft: "20px",
                     paddingRight: "20px",
                     paddingTop: "200px",
                 }}
-                className="pt-[200px]"
+                className="pt-[200px] w-full flex justify-center"
                 onSwiper={swiper => {
                     // Delay execution for the refs to be defined
                     setTimeout(() => {

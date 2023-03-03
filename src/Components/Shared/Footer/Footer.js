@@ -13,7 +13,7 @@ export const Footer = ({ bgColor }) => {
             <div className="max-w-[1400px] mx-auto">
                 <div className="w-[90%] mx-auto grid lg:grid-cols-2 grid-cols-1 lg:gap-28 md:gap-16 gap-10 lg:py-32 py-14 ">
                     <div>
-                        <FooterLeft bgColor="secondary" />
+                        <FooterLeft bgColor={bgColor} />
                     </div>
                     <div className="whitespace-nowrap">
                         <FooterRight bgColor={bgColor} />
