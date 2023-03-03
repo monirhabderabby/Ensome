@@ -53,7 +53,7 @@ export const ServicesContainer = () => {
         },
     ];
     return (
-        <div className="mt-[153px] max-w-[1500px] mx-auto pb-[200px] px-[41px]">
+        <div className="mt-[153px] px-[41px]">
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-y-[83px]">
                 {data?.map(service => {
                     return <ServiceCard key={service.id} service={service} />;
