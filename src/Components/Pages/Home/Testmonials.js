@@ -37,7 +37,7 @@ export const Testmonials = () => {
                 }}
                 modules={[Navigation]}
                 style={{
-                    paddingBottom: "0px",
+                    paddingBottom: "20px",
                     paddingLeft: "20px",
                     paddingRight: "20px",
                     paddingTop: "200px",
