@@ -2,7 +2,7 @@ import React from "react";
 
 export const ServiceOverview = () => {
     return (
-        <div className="mt-[140px]">
+        <div className="mt-[140px] max-w-[1500px] mx-auto px-[16px]">
             <h3 className="text-[38px] font-manrope font-extrabold tracking-[-1.5%] text-black text-center">
                 We provide services that guarantee your success
             </h3>
