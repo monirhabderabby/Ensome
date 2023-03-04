@@ -1,4 +1,5 @@
 import React from "react";
+import useDocumentTitle from "../../../util/useDocumentTitle";
 import { NewsLetter } from "../../Shared/Components/NewsLetter";
 import { Footer } from "../../Shared/Footer/Footer";
 import { Testmonials } from "../Home/Testmonials";
@@ -8,6 +9,9 @@ import { SolutionHeader } from "./SolutionHeader";
 import { SolutionWhyChooseUs } from "./SolutionWhyChooseUs";
 
 export const Solution = () => {
+    // Document Title
+    useDocumentTitle("Solution");
+
     return (
         <div>
             <SolutionHeader />

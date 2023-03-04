@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import useDocumentTitle from "../../../util/useDocumentTitle";
 import { NewsLetter } from "../../Shared/Components/NewsLetter";
 import { Footer } from "../../Shared/Footer/Footer";
 import { OurTeamHeader } from "./OurTeamHeader";
@@ -13,6 +14,10 @@ export const OurTeam = () => {
             behavior: "smooth",
         });
     }, []);
+
+    // Document Title
+    useDocumentTitle("Our team");
+
     return (
         <div>
             <OurTeamHeader />

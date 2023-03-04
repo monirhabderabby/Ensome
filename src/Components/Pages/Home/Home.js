@@ -1,5 +1,6 @@
 // Configuration
 import React from "react";
+import useDocumentTitle from "../../../util/useDocumentTitle";
 import { NewsLetter } from "../../Shared/Components/NewsLetter";
 import { Footer } from "../../Shared/Footer/Footer";
 
@@ -16,6 +17,9 @@ import { Testmonials } from "./Testmonials";
 import { WhyChooseEnsome } from "./WhyChooseEnsome";
 
 export const Home = () => {
+    // Document Title
+    useDocumentTitle("Home");
+
     return (
         <div>
             <Banner />
