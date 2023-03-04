@@ -10,8 +10,10 @@ export const NewestBusinessPlatform = () => {
                     The newest business analytics platform
                 </h1>
                 <p className="font-normal text-[14px] lg:text-[20px] tracking-[-1.5%] text-gray">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                    quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    Our newest business analytics platform is revolutionizing data analysis. With intuitive, versatile, and powerful tools, our
+                    platform enables you to optimize performance and drive growth like never before. Gain valuable insights into your data with
+                    customizable dashboards, interactive reports, and real-time analytics. Use our advanced data visualization tools to identify
+                    trends and patterns, and make data-driven decisions with confidence.
                 </p>
                 <PrimaryButton>Learn more</PrimaryButton>
             </div>

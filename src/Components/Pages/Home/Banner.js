@@ -19,8 +19,8 @@ export const Banner = () => {
                         Find true power in your data with Ensome
                     </h1>
                     <p className="font-normal text-[14px] lg:text-[20px] tracking-[-1.5%] text-gray">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium, totam rem aperiam, eaque
-                        ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        Ensome empowers you to harness the true potential of your data. Our innovative digital solutions optimize performance, provide
+                        valuable insights, and drive growth. Join us and unleash the power of your information today.
                     </p>
                     <div className="flex gap-x-[16px] lg:gap-x-[26px] flex-col md:flex-row gap-y-[20px] md:gap-y-0">
                         <PrimaryButton>Learn more</PrimaryButton>

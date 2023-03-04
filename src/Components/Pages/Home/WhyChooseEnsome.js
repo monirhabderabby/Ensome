@@ -14,21 +14,21 @@ export const WhyChooseEnsome = () => {
             icon: brainIcon,
             title: "Machine learning",
             description:
-                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.",
+                "Revolutionize your data analysis with our machine learning product. Drive better decision making with accurate insights and predictive analytics.",
         },
         {
             id: 2,
             icon: lineIcon,
             title: "Embed analytics",
             description:
-                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.",
+                "Unlock the full potential of your data with our embed analytics product. Empower your team with powerful insights and drive business growth. Try it today.",
         },
         {
             id: 3,
             icon: keyIcon,
             title: "Access control",
             description:
-                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.",
+                "Secure your organization with our access control product. Customizable, scalable, and reliable solution to protect your data.",
         },
     ];
     return (
@@ -38,8 +38,8 @@ export const WhyChooseEnsome = () => {
                     Why our clients <br /> choose Ensome?
                 </h1>
                 <p className="mt-[30px] text-center text-[14px] md:text-[20px] text-gray tracking-[-1.5%] font-open-sans">
-                    Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                    explicabo.
+                    Choose Ensome for innovative digital solutions that drive growth. Skilled developers, customer focus, and exceptional results.
+                    Join us today.
                 </p>
             </div>
             <div className="mt-[50px] grid grid-cols-1  md:grid-cols-3 gap-[30px] px-[16px]">
