@@ -6,6 +6,7 @@ import { Contact } from "./Components/Pages/Contact/Contact";
 import { Home } from "./Components/Pages/Home/Home";
 import { OurTeam } from "./Components/Pages/OurTeam/OurTeam";
 import { Service } from "./Components/Pages/Service/Service";
+import { Solution } from "./Components/Pages/Solution/Solution";
 import Navbar from "./Components/Shared/Navbar/Navbar";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/about-us" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/ourTeam" element={<OurTeam />} />
+                <Route path="/solution" element={<Solution />} />
             </Routes>
         </div>
     );
